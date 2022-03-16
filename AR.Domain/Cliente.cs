@@ -1,8 +1,10 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AR.Domain
 {
+    [Table("Cliente")] // Se deixar sem ele já pega por reflexo o nome da classe, vai gerar com nome da classe
     public class Cliente
     {
         [Key]
