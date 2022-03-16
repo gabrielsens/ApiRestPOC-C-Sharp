@@ -7,6 +7,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Apresentacao", "0 - Apr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AR.Apresentacao", "AR.Apresentacao\AR.Apresentacao.csproj", "{E79CDDC8-A970-4AD2-A75D-66F65142C375}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{87A55AE8-7092-4DD8-BB69-8CFCB7870EE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AR.Domain", "AR.Domain\AR.Domain.csproj", "{A763DA38-0E76-47A8-AB9F-254280776277}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Data", "2 - Data", "{FDCD95A1-B560-44EB-8B8C-3EA110FD5F2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AR.Data", "AR.Data\AR.Data.csproj", "{F894335C-7423-4AED-AB3B-54E1786D591F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +25,22 @@ Global
 		{E79CDDC8-A970-4AD2-A75D-66F65142C375}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E79CDDC8-A970-4AD2-A75D-66F65142C375}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E79CDDC8-A970-4AD2-A75D-66F65142C375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A763DA38-0E76-47A8-AB9F-254280776277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A763DA38-0E76-47A8-AB9F-254280776277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A763DA38-0E76-47A8-AB9F-254280776277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A763DA38-0E76-47A8-AB9F-254280776277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F894335C-7423-4AED-AB3B-54E1786D591F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F894335C-7423-4AED-AB3B-54E1786D591F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F894335C-7423-4AED-AB3B-54E1786D591F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F894335C-7423-4AED-AB3B-54E1786D591F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E79CDDC8-A970-4AD2-A75D-66F65142C375} = {EC4E4FEF-CCCC-407F-9DFA-D4888FD9C81F}
+		{A763DA38-0E76-47A8-AB9F-254280776277} = {87A55AE8-7092-4DD8-BB69-8CFCB7870EE3}
+		{F894335C-7423-4AED-AB3B-54E1786D591F} = {FDCD95A1-B560-44EB-8B8C-3EA110FD5F2E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4E545A92-3C25-4409-9D1D-7DE01C3662A6}
