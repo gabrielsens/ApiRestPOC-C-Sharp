@@ -1,4 +1,6 @@
 using AR.Data;
+using AR.Data.Interfaces;
+using AR.Data.Implementation;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -26,6 +28,8 @@ namespace AR.Apresentacao
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "AR.Apresentacao", Version = "v1" });
             });
+
+            services.AddScoped<IClienteRepository, ClienteRepository>();
 
             services.AddDbContext<ContextoPrincipal>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("ApiRestConnectionString")));

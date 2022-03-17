@@ -1,0 +1,5 @@
+Enable-Migrations
+
+Add-Migration "Table_Cliente" -- Cria os scripts
+
+Update-Database -- Cria realmente a tabela no banco

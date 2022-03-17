@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AR.Data.Interfaces
 {
-    internal interface IClienteRepository
+    public interface IClienteRepository
     {
         IQueryable<Cliente> GetAll();
 

@@ -8,16 +8,26 @@ using System.Threading.Tasks;
 
 namespace AR.Data.Implementation
 {
+
+
     public class ClienteRepository : IClienteRepository
     {
-        public Task Add(Cliente entity)
+        private readonly ContextoPrincipal _db;
+
+        public ClienteRepository(ContextoPrincipal db)
         {
-            throw new NotImplementedException();
+            _db = db;
+        }
+
+        public async Task Add(Cliente entity)
+        {
+            await _db.AddAsync(entity);
+            await _db.SaveChangesAsync();
         }
 
         public IQueryable<Cliente> GetAll()
         {
-            throw new NotImplementedException();
+            return _db.Cliente;
         }
     }
 }
