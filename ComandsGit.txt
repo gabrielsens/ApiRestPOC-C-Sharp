@@ -1,0 +1,4 @@
+pwd -- para listar o caminho atual no console
+
+git status para ver as alterações
+
